@@ -1,0 +1,18 @@
+.meal {
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.meal_content img {
+    width: 300px;
+}
+
+video {
+    height: 400px;
+    width: 400px;
+}
+
+li {
+    text-transform: capitalize;
+    list-style: square;
+}
