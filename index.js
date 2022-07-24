@@ -18,7 +18,7 @@ function sendMeal() {
             let mealHtml = `
                             <div class="meal_content">
                                 <img src="${mealsArr.strMealThumb}" alt="img">
-                                <h2${mealsArr.strMeal}</h2>
+                                <h2 class="mt-2">${mealsArr.strMeal}</h2>
                                 <p class="my-3">${mealsArr.strInstructions}</p
                                 <span><b>Category</b> : ${mealsArr.strCategory}</span> <br>
                                 <span><b>Area</b> : ${mealsArr.strArea}</span> <br>                                        
